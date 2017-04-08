@@ -25,7 +25,7 @@ public class MainActivityFragment extends Fragment {
                              Bundle savedInstanceState) {
         View root = inflater.inflate(R.layout.fragment_main, container, false);
 
-        MobileAds.initialize(getActivity().getApplicationContext(), "ca-app-pub-9573963248048843/2218357016");
+        MobileAds.initialize(getActivity().getApplicationContext(), "");
 
         AdView mAdView = (AdView) root.findViewById(R.id.adView);
         // Create an ad request. Check logcat output for the hashed device ID to
